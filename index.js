@@ -1,4 +1,4 @@
-var websocket = require('websocket-stream');
+var websocket = require('websocket-stream/stream');
 var inject = require('reconnect-core');
 
 module.exports = inject(function () {
